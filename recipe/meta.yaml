@@ -1,4 +1,4 @@
-{% set version = "2.1.12" %}
+{% set version = "2.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/psychTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/psychTools/psychTools_{{ version }}.tar.gz
-  sha256: 93ce5f2c6f5e68c51232b784171d4000502ac8437e45bf4d00af44b8dea31d3b
+  sha256: 07d9d8833e40bf829a32ebb1159011357245fd65f1a6759ccacbabd13791bc14
 
 build:
   merge_build_host: true  # [win]

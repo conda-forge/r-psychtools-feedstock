@@ -5,7 +5,7 @@ Home: https://personality-project.org/r/psych/ https://personality-project.org/r
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-psychtools-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-psychtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Support functions,  data sets, and vignettes for the 'psych' package. Contains several of the biggest data sets for the 'psych' package as well as one vignette. A few helper functions for file manipulation are included as well. For more information, see the <https://personality-project.org/r/> web page.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13349&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-psychtools-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13349&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-psychtools-feedstock?branchName=main">
       </a>
     </td>
   </tr>
