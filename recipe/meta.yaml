@@ -1,6 +1,5 @@
 {% set version = "2.4.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-psychtools
@@ -13,8 +12,7 @@ source:
   sha256: 1ab11cda68c580d33fb561d6a229f8285802f05ffa3056299a452149d7dec392
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
 
   rpaths:
