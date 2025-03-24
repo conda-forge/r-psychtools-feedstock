@@ -1,4 +1,4 @@
-{% set version = "2.4.2" %}
+{% set version = "2.5.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/psychTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/psychTools/psychTools_{{ version }}.tar.gz
-  sha256: 1ab11cda68c580d33fb561d6a229f8285802f05ffa3056299a452149d7dec392
+  sha256: 1d3cd859be2a977c6a6ab1ac573de0144edfcaeb0b87594b75ae710d3e09cbc3
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
   rpaths:
