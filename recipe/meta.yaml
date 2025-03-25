@@ -14,7 +14,6 @@ source:
 build:
   number: 0
   noarch: generic
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -23,16 +22,16 @@ requirements:
   build:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
-
   host:
     - r-base
     - r-foreign
     - r-psych
-
+    - r-rtf
   run:
     - r-base
     - r-foreign
     - r-psych
+    - r-rtf
 
 test:
   commands:
@@ -41,10 +40,8 @@ test:
 
 about:
   home: https://personality-project.org/r/psych/ https://personality-project.org/r/psych-manual.pdf
-
   license: GPL-2.0-or-later
   summary: Support functions,  data sets, and vignettes for the 'psych' package. Contains several of the biggest data sets for the 'psych' package as well as one vignette. A few helper functions for file manipulation are included as well. For more information, see the <https://personality-project.org/r/> web page.
-
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
